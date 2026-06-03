@@ -1,12 +1,14 @@
 _RedsHouse1FMomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "IBU: Ah, iya."
+	line "Semua laki akan"
+	cont "meninggalkan"
+	cont "rumah suatu hari"
+    cont "nanti. Begitu"
+    cont "kata TV."
 
-	para "PROF.OAK, next"
-	line "door, is looking"
-	cont "for you."
+	para "PROF.OAK, tetangga"
+	line "kita, sedang"
+	cont "mencarimu."
 	done
 
 _RedsHouse1FMomYouShouldRestText::
@@ -24,14 +26,15 @@ _RedsHouse1FMomLookingGreatText::
 	done
 
 _RedsHouse1FTVStandByMeMovieText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Ada film di TV."
+	line "Empat laki"
+	cont "berjalan di rel"
+	cont "kereta api."
 
-	para "I better go too."
+	para "Sebaiknya aku"
+    line "juga pergi."
 	done
 
 _RedsHouse1FTVWrongSideText::
-	text "Oops, wrong side."
+	text "Ups, salah sisi."
 	done

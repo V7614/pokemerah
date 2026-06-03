@@ -1,20 +1,21 @@
 _PalletTownOakHeyWaitDontGoOutText::
-	text "OAK: Hey! Wait!"
-	line "Don't go out!@"
+	text "OAK: Hei! Tunngu!"
+	line "Jangan keluar!@"
 	text_end
 
 _PalletTownOakItsUnsafeText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "OAK: Itu"
+    line "berbahaya!"
+	cont "#MON liar"
+	cont "hidup di rumput"
+    cont "tinggi!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Kamu butuh #MON"
+	line "sendiri untuk"
+	cont "perlindungan."
+	cont "Aha! Aku tahu!"
 
-	para "Here, come with"
-	line "me!"
+	para "Ayo ikut aku!"
 	done
 
 _PalletTownGirlText::
