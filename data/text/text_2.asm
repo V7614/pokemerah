@@ -575,10 +575,10 @@ _IndigoPlateauHQText::
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the SNES!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	text "<PLAYER> sedang"
+	line "memainkan SNES!"
+	cont "...Oke!"
+	cont "Saatnya pergi!"
 	done
 
 _Route15UpstairsBinocularsText::
@@ -798,8 +798,9 @@ _IndigoPlateauStatuesText3::
 	done
 
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Penuh sesak"
+    line "dengan buku-buku"
+	cont "#MON!"
 	done
 
 _DiglettSculptureText::
@@ -1440,8 +1441,8 @@ _RareCandyText::
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> menyalakan"
+	line "PC."
 	prompt
 
 _AccessedBillsPCText::
@@ -1468,38 +1469,38 @@ _AccessedMyPCText::
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> menyalakan"
+	line "PC."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Kamu ingin"
+	line "melakukan apa?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Apa yang kamu"
+	line "ingin setorkan?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Berapa banyak?"
 	done
 
 _ItemWasStoredText::
 	text_ram wNameBuffer
-	text " was"
-	line "stored via PC."
+	text " "
+    line "disimpan di PC."
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Kamu tidak punya"
+	line "barang untuk"
+    cont "disetor."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "PC sudah penuh"
 	prompt
 
 _WhatToWithdrawText::
@@ -1694,62 +1695,71 @@ _LinkCanceledText::
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Halo! Selamat"
+	line "datang di dunia"
+	cont "#MON!"
 
-	para "My name is OAK!"
-	line "People call me"
-	cont "the #MON PROF!"
+	para "Nama saya OAK!"
+	line "semua orang"
+	cont "memanggil saya"
+	cont "sebagai PROF."
+	cont "#MON!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
+	text "Dunia ini dihuni"
+	line "oleh makhluk"
+	cont "yang disebut"
 	cont "#MON!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Bagi sebagian"
+	line "orang, #MON"
+	cont "adalah hewan"
+	cont "peliharaan."
+	cont "Yang lain"
+	cont "menggunakan"
+	cont "mereka untuk"
+	cont "bertarung!"
 
-	para "Myself..."
+	para "Saya sendiri..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Saya mempelajari"
+	line "#MON sebagai"
+	cont "profesi."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Pertama, siapa"
+	line "namamu?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "Ini cucuku. Kalian"
+	line "berdua sudah"
+	cont "bersaing sejak"
+	cont "kalian masih"
+	cont "bayi."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...Ehm, siapa"
+	line "namanya lagi ya?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Legenda #MONmu"
+	line "akan segera"
+	cont "terungkap!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Dunia mimpi"
+	line "dan petualangan"
+	cont "bersama #MON"
+	cont "menantimu!"
+	cont "Ayo pergi!"
 	done
 
 _DoYouWantToNicknameText::
@@ -1761,14 +1771,14 @@ _DoYouWantToNicknameText::
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Baik! Namamu"
+	line "adalah <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Ah iya! Aku ingat"
+	line "sekarang! Namanya"
+	cont "adalah <RIVAL>!"
 	prompt
 
 _WillBeTradedText::

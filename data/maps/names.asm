@@ -1,4 +1,4 @@
-PalletTownName:      db "PALLET TOWN@"
+PalletTownName:      db "KOTA PALET@"
 ViridianCityName:    db "VIRIDIAN CITY@"
 PewterCityName:      db "PEWTER CITY@"
 CeruleanCityName:    db "CERULEAN CITY@"
